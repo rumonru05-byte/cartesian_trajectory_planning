@@ -1,0 +1,13 @@
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/uninstall.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/cartesian_trajectory_planning_uninstall.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/send_trajectory.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/send_linear_trajectory.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/send_circular_trajectory.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/cartesian_trajectory_planning.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/test.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/edit_cache.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/rebuild_cache.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/list_install_components.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/install.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/install/local.dir
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/CMakeFiles/install/strip.dir

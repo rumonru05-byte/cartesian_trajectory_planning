@@ -1,0 +1,1 @@
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/hardware/include/cartesian_trajectory_planning/r6bot_hardware.hpp

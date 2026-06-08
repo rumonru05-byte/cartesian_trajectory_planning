@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f6cc2b4b34bf82617d89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cartesian_trajectory_planning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_trajectory_planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_trajectory_planning-eaa7d4074619bb748d0c.json",
+					"name" : "cartesian_trajectory_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_trajectory_planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_trajectory_planning_uninstall-b5f783d1ac7f96ce6b87.json",
+					"name" : "cartesian_trajectory_planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "send_circular_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_circular_trajectory-4ffd81c604736d899dab.json",
+					"name" : "send_circular_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "send_linear_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_linear_trajectory-034655cae90dce95d75b.json",
+					"name" : "send_linear_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "send_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_trajectory-21a3109f21da496df8e6.json",
+					"name" : "send_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6deaedbb6f7d36fe00d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning",
+		"source" : "/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

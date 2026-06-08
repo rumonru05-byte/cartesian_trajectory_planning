@@ -1,0 +1,1 @@
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/bringup/launch/send_circular_trajectory.launch.py

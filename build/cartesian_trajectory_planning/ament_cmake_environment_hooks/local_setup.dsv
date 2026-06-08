@@ -1,0 +1,3 @@
+source;share/cartesian_trajectory_planning/environment/ament_prefix_path.sh
+source;share/cartesian_trajectory_planning/environment/library_path.sh
+source;share/cartesian_trajectory_planning/environment/path.sh

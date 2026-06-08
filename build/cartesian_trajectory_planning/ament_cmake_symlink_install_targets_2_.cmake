@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning/send_circular_trajectory" "TARGETS" "send_circular_trajectory" "RUNTIME_DESTINATION" "lib/cartesian_trajectory_planning")

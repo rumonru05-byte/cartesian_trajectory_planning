@@ -1,0 +1,1 @@
+/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/description/launch/view_r6bot.launch.py
