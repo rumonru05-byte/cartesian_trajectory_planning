@@ -64,7 +64,7 @@ Las gráficas tanto de posición como de orientación del manipulador serían la
     </td>
     <td align="center">
       <strong>Orientación del EE</strong><br>
-      <img src="archivos_informe/posicion_ej2.png" width="100%" controls></video>
+      <img src="archivos_informe/orientacion_ej2.png" width="100%" controls></video>
     </td>
   </tr>
 </table>
