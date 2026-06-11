@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.001509] (cartesian_trajectory_planning) JobQueued: {'identifier': 'cartesian_trajectory_planning', 'dependencies': OrderedDict()}
+[0.001625] (cartesian_trajectory_planning) JobStarted: {'identifier': 'cartesian_trajectory_planning'}
+[0.024855] (cartesian_trajectory_planning) JobProgress: {'identifier': 'cartesian_trajectory_planning', 'progress': 'cmake'}
+[0.026817] (cartesian_trajectory_planning) JobProgress: {'identifier': 'cartesian_trajectory_planning', 'progress': 'build'}
+[0.028565] (cartesian_trajectory_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning', '--', '-j12', '-l12'], 'cwd': '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ruben'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ruben/uma_environment_tools/matlogger2/build'), ('HOME', '/home/ruben'), ('OLDPWD', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/experiment_data'), ('ROS_PYTHON_VERSION', '3'), ('WORKSPACE_TO_SOURCE', '/home/ruben/ros/amp_rob_ws'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install:/home/ruben/ros/amp_rob_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ruben'), ('NAME', 'PCdeRu'), ('WSL_INTEROP', '/run/WSL/398_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('INTERFACE_TYPE', 'SIMULATION'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ruben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ruben/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ruben/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ruben/.local/bin'), ('WSL_PAC_URL', 'https://www.uma.es/media/files/proxy.pac'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:013f3398-0e69-44de-bbd0-b8e1352b25b8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099203] (-) TimerEvent: {}
+[0.199842] (-) TimerEvent: {}
+[0.207832] (cartesian_trajectory_planning) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o\x1b[0m\n'}
+[0.208950] (cartesian_trajectory_planning) StdoutLine: {'line': b'[ 33%] Built target send_circular_trajectory\n'}
+[0.215035] (cartesian_trajectory_planning) StdoutLine: {'line': b'[ 55%] Built target send_linear_trajectory\n'}
+[0.220627] (cartesian_trajectory_planning) StdoutLine: {'line': b'[ 88%] Built target cartesian_trajectory_planning\n'}
+[0.300088] (-) TimerEvent: {}
+[0.400911] (-) TimerEvent: {}
+[0.501557] (-) TimerEvent: {}
+[0.602149] (-) TimerEvent: {}
+[0.702779] (-) TimerEvent: {}
+[0.803324] (-) TimerEvent: {}
+[0.904054] (-) TimerEvent: {}
+[1.018609] (-) TimerEvent: {}
+[1.119164] (-) TimerEvent: {}
+[1.219785] (-) TimerEvent: {}
+[1.320358] (-) TimerEvent: {}
+[1.420961] (-) TimerEvent: {}
+[1.521578] (-) TimerEvent: {}
+[1.622206] (-) TimerEvent: {}
+[1.722866] (-) TimerEvent: {}
+[1.823723] (-) TimerEvent: {}
+[1.924362] (-) TimerEvent: {}
+[2.025222] (-) TimerEvent: {}
+[2.125991] (-) TimerEvent: {}
+[2.226649] (-) TimerEvent: {}
+[2.327345] (-) TimerEvent: {}
+[2.427918] (-) TimerEvent: {}
+[2.528527] (-) TimerEvent: {}
+[2.629067] (-) TimerEvent: {}
+[2.729658] (-) TimerEvent: {}
+[2.830306] (-) TimerEvent: {}
+[2.931027] (-) TimerEvent: {}
+[3.031736] (-) TimerEvent: {}
+[3.132270] (-) TimerEvent: {}
+[3.232954] (-) TimerEvent: {}
+[3.333473] (-) TimerEvent: {}
+[3.434208] (-) TimerEvent: {}
+[3.534826] (-) TimerEvent: {}
+[3.635499] (-) TimerEvent: {}
+[3.736165] (-) TimerEvent: {}
+[3.836776] (-) TimerEvent: {}
+[3.937360] (-) TimerEvent: {}
+[4.038028] (-) TimerEvent: {}
+[4.138628] (-) TimerEvent: {}
+[4.239265] (-) TimerEvent: {}
+[4.340170] (-) TimerEvent: {}
+[4.441029] (-) TimerEvent: {}
+[4.541671] (-) TimerEvent: {}
+[4.642318] (-) TimerEvent: {}
+[4.742982] (-) TimerEvent: {}
+[4.843626] (-) TimerEvent: {}
+[4.944154] (-) TimerEvent: {}
+[5.044765] (-) TimerEvent: {}
+[5.145485] (-) TimerEvent: {}
+[5.246130] (-) TimerEvent: {}
+[5.346771] (-) TimerEvent: {}
+[5.447576] (-) TimerEvent: {}
+[5.548652] (-) TimerEvent: {}
+[5.649451] (-) TimerEvent: {}
+[5.750115] (-) TimerEvent: {}
+[5.850756] (-) TimerEvent: {}
+[5.951387] (-) TimerEvent: {}
+[6.052034] (-) TimerEvent: {}
+[6.152727] (-) TimerEvent: {}
+[6.253353] (-) TimerEvent: {}
+[6.354009] (-) TimerEvent: {}
+[6.454765] (-) TimerEvent: {}
+[6.555528] (-) TimerEvent: {}
+[6.656266] (-) TimerEvent: {}
+[6.757008] (-) TimerEvent: {}
+[6.857544] (-) TimerEvent: {}
+[6.958216] (-) TimerEvent: {}
+[7.059037] (-) TimerEvent: {}
+[7.159777] (-) TimerEvent: {}
+[7.260627] (-) TimerEvent: {}
+[7.361327] (-) TimerEvent: {}
+[7.462051] (-) TimerEvent: {}
+[7.562655] (-) TimerEvent: {}
+[7.663724] (-) TimerEvent: {}
+[7.764402] (-) TimerEvent: {}
+[7.865125] (-) TimerEvent: {}
+[7.965740] (-) TimerEvent: {}
+[8.066268] (-) TimerEvent: {}
+[8.166844] (-) TimerEvent: {}
+[8.267573] (-) TimerEvent: {}
+[8.368261] (-) TimerEvent: {}
+[8.468877] (-) TimerEvent: {}
+[8.569601] (-) TimerEvent: {}
+[8.670112] (-) TimerEvent: {}
+[8.770897] (-) TimerEvent: {}
+[8.871726] (-) TimerEvent: {}
+[8.972483] (-) TimerEvent: {}
+[9.073124] (-) TimerEvent: {}
+[9.173978] (-) TimerEvent: {}
+[9.275096] (-) TimerEvent: {}
+[9.376023] (-) TimerEvent: {}
+[9.476860] (-) TimerEvent: {}
+[9.577392] (-) TimerEvent: {}
+[9.677975] (-) TimerEvent: {}
+[9.778767] (-) TimerEvent: {}
+[9.879626] (-) TimerEvent: {}
+[9.980596] (-) TimerEvent: {}
+[10.081293] (-) TimerEvent: {}
+[10.182207] (-) TimerEvent: {}
+[10.283319] (-) TimerEvent: {}
+[10.384005] (-) TimerEvent: {}
+[10.484688] (-) TimerEvent: {}
+[10.585391] (-) TimerEvent: {}
+[10.686017] (-) TimerEvent: {}
+[10.786918] (-) TimerEvent: {}
+[10.887896] (-) TimerEvent: {}
+[10.988734] (-) TimerEvent: {}
+[11.089507] (-) TimerEvent: {}
+[11.190273] (-) TimerEvent: {}
+[11.290991] (-) TimerEvent: {}
+[11.391613] (-) TimerEvent: {}
+[11.492204] (-) TimerEvent: {}
+[11.592934] (-) TimerEvent: {}
+[11.693701] (-) TimerEvent: {}
+[11.797224] (-) TimerEvent: {}
+[11.898212] (-) TimerEvent: {}
+[11.999043] (-) TimerEvent: {}
+[12.100078] (-) TimerEvent: {}
+[12.201247] (-) TimerEvent: {}
+[12.301952] (-) TimerEvent: {}
+[12.405862] (-) TimerEvent: {}
+[12.506137] (cartesian_trajectory_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable send_trajectory\x1b[0m\n'}
+[12.506427] (-) TimerEvent: {}
+[12.606843] (-) TimerEvent: {}
+[12.707504] (-) TimerEvent: {}
+[12.808378] (-) TimerEvent: {}
+[12.909193] (-) TimerEvent: {}
+[13.010342] (-) TimerEvent: {}
+[13.111873] (-) TimerEvent: {}
+[13.212925] (-) TimerEvent: {}
+[13.313908] (-) TimerEvent: {}
+[13.316817] (cartesian_trajectory_planning) StdoutLine: {'line': b'[100%] Built target send_trajectory\n'}
+[13.359745] (cartesian_trajectory_planning) CommandEnded: {'returncode': 0}
+[13.360961] (cartesian_trajectory_planning) JobProgress: {'identifier': 'cartesian_trajectory_planning', 'progress': 'install'}
+[13.380665] (cartesian_trajectory_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning'], 'cwd': '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ruben'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ruben/uma_environment_tools/matlogger2/build'), ('HOME', '/home/ruben'), ('OLDPWD', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/experiment_data'), ('ROS_PYTHON_VERSION', '3'), ('WORKSPACE_TO_SOURCE', '/home/ruben/ros/amp_rob_ws'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install:/home/ruben/ros/amp_rob_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ruben'), ('NAME', 'PCdeRu'), ('WSL_INTEROP', '/run/WSL/398_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('INTERFACE_TYPE', 'SIMULATION'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ruben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ruben/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ruben/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ruben/.local/bin'), ('WSL_PAC_URL', 'https://www.uma.es/media/files/proxy.pac'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:013f3398-0e69-44de-bbd0-b8e1352b25b8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning:/home/ruben/ros/amp_rob_ws/install/cartesian_trajectory_planning:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[13.391603] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.392504] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.393045] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning//cartesian_trajectory_planning.xml\n'}
+[13.393209] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning//cartesian_trajectory_planning.xml\n'}
+[13.393635] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/include/cartesian_trajectory_planning/cartesian_trajectory_planning/r6bot_hardware.hpp\n'}
+[13.398449] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/view_r6bot.launch.py\n'}
+[13.399263] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/ros2_control/r6bot.ros2_control.xacro\n'}
+[13.399697] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/urdf/r6bot.urdf.xacro\n'}
+[13.400321] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_0.stl\n'}
+[13.400893] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_1.stl\n'}
+[13.401667] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_2.stl\n'}
+[13.402050] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_3.stl\n'}
+[13.402125] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_4.stl\n'}
+[13.402229] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_5.stl\n'}
+[13.402295] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_6.stl\n'}
+[13.402350] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_0.dae\n'}
+[13.402674] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_1.dae\n'}
+[13.403425] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_2.dae\n'}
+[13.404027] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_3.dae\n'}
+[13.404488] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_4.dae\n'}
+[13.405092] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_5.dae\n'}
+[13.406111] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_6.dae\n'}
+[13.406544] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/rviz/view_robot.rviz\n'}
+[13.406646] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/srdf/r6bot.srdf\n'}
+[13.406702] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/urdf/inc/create_link.xacro\n'}
+[13.406890] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[13.407122] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/r6bot_controller.launch.py\n'}
+[13.407261] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_circular_trajectory.launch.py\n'}
+[13.407433] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_linear_trajectory.launch.py\n'}
+[13.407629] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_trajectory.launch.py\n'}
+[13.407938] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/config/r6bot_controller.yaml\n'}
+[13.408007] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/config/poses.yaml\n'}
+[13.408066] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_trajectory\n'}
+[13.408160] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_linear_trajectory\n'}
+[13.408296] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_circular_trajectory\n'}
+[13.408621] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/library_path.sh\n'}
+[13.408718] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/library_path.dsv\n'}
+[13.408778] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/package_run_dependencies/cartesian_trajectory_planning\n'}
+[13.408827] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/parent_prefix_path/cartesian_trajectory_planning\n'}
+[13.408878] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/ament_prefix_path.sh\n'}
+[13.408925] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/ament_prefix_path.dsv\n'}
+[13.408973] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/path.sh\n'}
+[13.409024] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/path.dsv\n'}
+[13.409072] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.bash\n'}
+[13.409132] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.sh\n'}
+[13.409181] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.zsh\n'}
+[13.409232] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.dsv\n'}
+[13.409279] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Symlinking: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/package.dsv\n'}
+[13.414150] (-) TimerEvent: {}
+[13.425578] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/packages/cartesian_trajectory_planning\n'}
+[13.426047] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/cartesian_trajectory_planning\n'}
+[13.429495] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_trajectory_planning\n'}
+[13.430449] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.430758] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.431354] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/cartesian_trajectory_planningConfig.cmake\n'}
+[13.431607] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/cartesian_trajectory_planningConfig-version.cmake\n'}
+[13.431749] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/package.xml\n'}
+[13.431832] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/libcartesian_trajectory_planning.so\n'}
+[13.431948] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/export_cartesian_trajectory_planningExport.cmake\n'}
+[13.432029] (cartesian_trajectory_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/export_cartesian_trajectory_planningExport-noconfig.cmake\n'}
+[13.437934] (cartesian_trajectory_planning) CommandEnded: {'returncode': 0}
+[13.481347] (cartesian_trajectory_planning) JobEnded: {'identifier': 'cartesian_trajectory_planning', 'rc': 0}
+[13.483418] (-) EventReactorShutdown: {}

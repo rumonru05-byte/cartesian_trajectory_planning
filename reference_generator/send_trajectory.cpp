@@ -207,7 +207,7 @@ std::pair<tf2::Vector3, tf2::Quaternion> ComputeNextCartesianPose(
     double t)
 {
     // Check if t is within the valid range of [-T, T]
-    if (t < -T || t > T)
+    if (t < -T - 1e-6 || t > T + 1e-6)
     {
         throw std::out_of_range("Parameter t is outside [-T, T]");
     }
@@ -391,7 +391,7 @@ int main(int argc, char **argv)
 
     // Exercise 2 : Cartesian trajectory generation
     int tau = 1;
-    int T = 10;
+    int T = 5;
     bool exercise_2 = true; // Set to true to execute Exercise 2
 
     if (exercise_2)

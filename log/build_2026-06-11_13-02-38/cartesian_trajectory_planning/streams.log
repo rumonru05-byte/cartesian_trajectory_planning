@@ -1,0 +1,68 @@
+[0.032s] Invoking command in '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning -- -j12 -l12
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target send_trajectory[0m
+[0.210s] [ 22%] Built target send_circular_trajectory
+[0.213s] [ 44%] Built target send_linear_trajectory
+[0.216s] [ 77%] Built target cartesian_trajectory_planning
+[0.232s] [100%] Built target send_trajectory
+[0.267s] Invoked command in '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning -- -j12 -l12
+[0.295s] Invoking command in '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning
+[0.311s] -- Install configuration: ""
+[0.312s] -- Execute custom install script
+[0.313s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning//cartesian_trajectory_planning.xml
+[0.313s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning//cartesian_trajectory_planning.xml
+[0.314s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/include/cartesian_trajectory_planning/cartesian_trajectory_planning/r6bot_hardware.hpp
+[0.315s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/view_r6bot.launch.py
+[0.315s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/ros2_control/r6bot.ros2_control.xacro
+[0.315s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/urdf/r6bot.urdf.xacro
+[0.320s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_0.stl
+[0.320s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_1.stl
+[0.321s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_2.stl
+[0.322s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_3.stl
+[0.323s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_4.stl
+[0.323s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_5.stl
+[0.323s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/collision/link_6.stl
+[0.324s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_0.dae
+[0.324s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_1.dae
+[0.325s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_2.dae
+[0.325s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_3.dae
+[0.326s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_4.dae
+[0.327s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_5.dae
+[0.327s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/meshes/visual/link_6.dae
+[0.328s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/rviz/view_robot.rviz
+[0.328s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/srdf/r6bot.srdf
+[0.328s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/urdf/inc/create_link.xacro
+[0.328s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/r6bot/urdf/r6bot_description.urdf.xacro
+[0.329s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/r6bot_controller.launch.py
+[0.329s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_circular_trajectory.launch.py
+[0.329s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_linear_trajectory.launch.py
+[0.329s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/launch/send_trajectory.launch.py
+[0.330s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/config/r6bot_controller.yaml
+[0.330s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/config/poses.yaml
+[0.331s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_trajectory
+[0.332s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_linear_trajectory
+[0.332s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/cartesian_trajectory_planning/send_circular_trajectory
+[0.333s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/library_path.sh
+[0.333s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/library_path.dsv
+[0.334s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/package_run_dependencies/cartesian_trajectory_planning
+[0.334s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/parent_prefix_path/cartesian_trajectory_planning
+[0.335s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/ament_prefix_path.dsv
+[0.336s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/path.sh
+[0.336s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/environment/path.dsv
+[0.337s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.bash
+[0.338s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.sh
+[0.339s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.zsh
+[0.339s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/local_setup.dsv
+[0.339s] -- Symlinking: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/package.dsv
+[0.371s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/packages/cartesian_trajectory_planning
+[0.371s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/cartesian_trajectory_planning
+[0.372s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_trajectory_planning
+[0.373s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/ament_cmake_export_targets-extras.cmake
+[0.373s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.373s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/cartesian_trajectory_planningConfig.cmake
+[0.374s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/cartesian_trajectory_planningConfig-version.cmake
+[0.375s] -- Up-to-date symlink: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/package.xml
+[0.375s] -- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/lib/libcartesian_trajectory_planning.so
+[0.376s] -- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/export_cartesian_trajectory_planningExport.cmake
+[0.376s] -- Up-to-date: /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/install/cartesian_trajectory_planning/share/cartesian_trajectory_planning/cmake/export_cartesian_trajectory_planningExport-noconfig.cmake
+[0.389s] Invoked command in '/home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ruben/ros/amp_rob_ws/src/cartesian_trajectory_planning/build/cartesian_trajectory_planning
